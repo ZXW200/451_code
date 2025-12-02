@@ -13,7 +13,7 @@ from .classification import run_classification_pipeline
 def main():
     parser = argparse.ArgumentParser(
         description='Image Analysis - Feature Extraction, Clustering & Classification',
-        formatter_class=argparse.RawDescriptionHelpFormatte
+        formatter_class=argparse.RawDescriptionHelpFormatter
     )
     
     parser.add_argument(
