@@ -6,9 +6,17 @@
 
 ```
 451_code/
-├── task1/    # 气候数据分析
-└── task2/    # 图像分析
+├── 451_code/
+│   ├── task1/    # 气候数据分析
+│   └── task2/    # 图像分析
+└── README.md
 ```
+
+## ⚠️ 重要提示
+
+**必须在项目根目录下运行命令！**
+
+确保你的当前目录是包含 `451_code` 文件夹和 `README.md` 的目录。如果你在 Windows 上看到路径类似 `C:\Users\...\桌面\451_code`，那么这就是正确的目录。
 
 ## Task 1 - 气候数据分析
 
@@ -18,12 +26,7 @@
 
 ### 运行方法
 
-```bash
-cd 451_code/task1
-python -m 451_code.task1.main --data <数据文件路径>
-```
-
-或者从项目根目录运行：
+**从项目根目录运行**（包含 451_code 文件夹的目录）：
 
 ```bash
 python -m 451_code.task1.main --data <数据文件路径>
@@ -50,12 +53,7 @@ python -m 451_code.task1.main --data data/climate.csv
 
 ### 运行方法
 
-```bash
-cd 451_code/task2
-python -m 451_code.task2.main --dataset <数据集目录> [--models 模型名称]
-```
-
-或者从项目根目录运行：
+**从项目根目录运行**（包含 451_code 文件夹的目录）：
 
 ```bash
 python -m 451_code.task2.main --dataset <数据集目录> [--models 模型名称]
